@@ -10,5 +10,5 @@
     - name: Print Variable - task level
       vars:
         a: 200
-        ansible.builtin.debug:
-          msg: a - {{ a }}
+      ansible.builtin.debug:
+        msg: a - {{ a }}
