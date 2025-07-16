@@ -3,6 +3,9 @@
 # task level
 # role level
 # play level
+# hosts_vars level
+# inventory level
+# group_vars level
 
 - name: Variable demo
   hosts: localhost
